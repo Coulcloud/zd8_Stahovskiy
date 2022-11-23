@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/kinofrag1"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="440dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:menu="@menu/films12">
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="503dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">>
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="297dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/gp"
+            android:textColor="@android:color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+
+
+
+        <TextView
+            android:id="@+id/item_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/default_imdb_rating"
+            android:textColor="@color/green" />
+
+        <ImageView
+            android:id="@+id/item_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="101dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center|start"
+            android:src="@drawable/gp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginBottom="503dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">>
+
+        <TextView
+            android:id="@+id/item_title1"
+            android:layout_width="297dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/tg"
+            android:textColor="@android:color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_rating1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/rtg2"
+            android:textColor="@color/green" />
+
+        <ImageView
+            android:id="@+id/item_notification1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/item_image1"
+            android:layout_width="103dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|start"
+            android:src="@drawable/tgmav" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/item_rating2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/brg1"
+            android:textColor="@color/green" />
+
+        <ImageView
+            android:id="@+id/item_notification2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/item_image2"
+            android:layout_width="103dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center|start"
+            android:src="@drawable/brigada" />
+        <TextView
+            android:id="@+id/item_title2"
+            android:layout_width="297dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/brg"
+            android:textColor="@android:color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/item_rating3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/fr"
+            android:textColor="@color/green" />
+
+        <ImageView
+            android:id="@+id/item_notification3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/ic_notifications_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/item_image3"
+            android:layout_width="103dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center|start"
+            android:src="@drawable/gmur" />
+        <TextView
+            android:id="@+id/item_title3"
+            android:layout_width="297dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/gmu"
+            android:textColor="@android:color/black"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/InfoForFilm"
+        android:layout_width="93dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/Of"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

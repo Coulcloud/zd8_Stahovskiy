@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/glav"
+    android:icon="@drawable/tv"
+    android:title="@string/glav"/>
+    <item
+    android:id="@+id/navigation_home"
+    android:icon="@drawable/ep"
+    android:title="@string/pb"
+
+        />
+    <item
+        android:id="@+id/coll"
+        android:icon="@drawable/collect"
+        android:title="@string/colect"
+
+        />
+    <item
+        android:id="@+id/prof"
+        android:icon="@drawable/profil"
+        android:title="@string/prof"
+
+        />
+</menu>

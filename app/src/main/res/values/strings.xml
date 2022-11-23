@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">zd8_Stahovskiy</string>
+    <string name="ws">WorldCinema</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="antireg">У меня уже есть аккаунт</string>
+    <string name="name">Имя</string>
+    <string name="fam">Фамилия</string>
+    <string name="mail">E-mail</string>
+    <string name="pass">Пароль</string>
+    <string name="repass">Повторите пароль</string>
+    <string name="colect">Коллекции</string>
+    <string name="izbr">Избранное</string>
+    <string name="ob">Когда-нибудь</string>
+    <string name="inp">В поездку</string>
+    <string name="title_activity_ok">okey</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="glav">Главное</string>
+    <string name="pb">Подборка</string>
+    <string name="prof">Профиль</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_settings">Settings</string>
+    <string name="desc_home">Notification list</string>
+    <string name="movie_title">Movie title</string>
+    <string name="default_imdb_rating">IMDb rating: 8,0</string>
+    <string name="gp">Гарри Поттер 20 лет спустя: Возвращение в Хогвартс</string>
+    <string name="tg">Топ Ган: Мэверик</string>
+    <string name="rtg2">IMDb rating: 7,8</string>
+    <string name="brg">Бригада </string>
+    <string name="brg1">IMDb rating: 8,3</string>
+    <string name="gmu">Жмурки</string>
+    <string name="fr">IMDb rating:7.2</string>
+    <string name="Of">О фильме</string>
+
+</resources>
